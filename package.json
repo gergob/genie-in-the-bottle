@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.21.0"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "endOfLine": "lf",
+    "useTabs": false,
+    "trailingComma": "es5"
+  }
+  
+}
