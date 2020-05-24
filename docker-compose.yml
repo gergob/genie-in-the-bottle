@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+    service-auth:
+        build: ./packages/service-auth
+        env_file: 
+            - './packages/service-auth/.env'
+        ports: 
+            - '8080:8888'
+    
+    service-time:
+        build: './packages/service-time'
+        env_file: 
+            - './packages/service-time/.env'
+        ports: 
+            - '8081:8888'
